@@ -14,7 +14,7 @@
     <link href="main.css" rel="stylesheet">
     <link href="footer.css" rel="stylesheet">
     <link href="style.css" type="text/css" rel="stylesheet" media="all">
-
+    <link href="footer_responsive.css" type="text/css" rel="stylesheet" media="all">
 </head>
 <body>
 
@@ -405,9 +405,9 @@
 <footer>
 
     <div class="container">
+        <!--The footer content on large screen-->
         <div class="row hidden-xs visible-sm visible-md visible-lg">
-            <div class="col-sm-10">
-                <div class="col-sm-3">
+                <div class="col-sm-2 footer_responsive_custom_3">
                     <div class="footer-block">
                         <p class="footp">INFORMATION ABOUT</p>
                         <ul>
@@ -420,7 +420,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-2 footer_responsive_custom_3">
                     <div class="footer-block">
                         <p class="footp">INFORMATION FOR</p>
                         <ul>
@@ -433,7 +433,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-2 footer_responsive_custom_2">
                     <div class="footer-block">
                         <p CLASS="footp">QUICK LINKS</p>
                         <ul>
@@ -444,7 +444,7 @@
                     </div>
 
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-4 footer_responsive_custom_4">
                     <div class="footer-block">
                         <p class="footp">REACHING US</p>
                         <div class="row">
@@ -452,31 +452,28 @@
                                 <img src="images/mapmarker.fw.png">
                             </div>
                             <div class="col-xs-10">
-                                <p>P.M.B 1004 Ipetu Road
+                                <p>P.M.B 1004 Ipetu Road <br>
                                     Omu-Aran, Kwara State</p>
                             </div>
                         </div>
-
                         <div class="row">
                             <div class="col-xs-2">
                                 <img src="images/contact.fw.png">
                             </div>
-                            <div class="col-xs-10">
+                            <div class="col-xs-10 "><p>
                                 +234 7087116413<br>
                                 +234 7038205649<br>
                                 +234 8151319178 (Admission)</p>
                             </div>
                         </div>
-
-
                         <div class="row">
                             <div class="col-xs-2">
                                 <img src="images/email.fw.png">
                             </div>
                             <div class="col-xs-10">
                                 <p>
-                                    admissions@lmu.edu.ng
-                                    support@lmu.edu.ng
+                                    admissions@lmu.edu.ng<br>
+                                    support@lmu.edu.ng<br>
                                     feedback@lmu.edu.ng
                                 </p>
                             </div>
@@ -484,62 +481,204 @@
 
                     </div>
                 </div>
-            </div>
-            <div class="col-sm-2 debug-border">
-                <div class="">
-                    <p class="footp pull-right">SOCIAL COMMUNITY</p>
-                    <div class="row">
-                        <div class="col-xs-1"></div>
-                        <div class="col-xs-10">
-                            <div class="row ">
-                                <ul class="list-unstyled list-inline thesocialmedais pull-right">
-                                    <li><a id="face"><img id="facebookicon" onmouseover="chgimg('facebookicon')"
-                                                          onmouseout="normalImg('facebookicon')"
-                                                          class="img-responsive social-roll"
-                                                          src="images/facebook-icon.fw.png"></a></li>
-                                    <li><a id="twit"><img id="twittericon" onmouseover="chgimg('twittericon')"
-                                                          onmouseout="normalImg('twittericon')"
-                                                          class="img-responsive social-roll"
-                                                          src="images/twitter-icon.fw.png"></a></li>
-                                    <li><a id="gplus"><img id="gplusicon" onmouseover="chgimg('gplusicon')"
-                                                           onmouseout="normalImg('gplusicon')"
-                                                           class="img-responsive social-roll"
-                                                           src="images/googleplus.fw.png"></a></li>
+                <div class="col-sm-2 footer_responsive_custom_hidding_socials">
+                    <div class="">
+                        <p class="footp pull-right">SOCIAL COMMUNITY</p>
+                        <div class="row">
+                            <div class="col-xs-10">
+                                <div class="row ">
+                                    <ul class="list-unstyled list-inline thesocialmedais pull-right">
+                                        <li><a id="face"><img id="facebookicon" onmouseover="chgimg('facebookicon')"
+                                                              onmouseout="normalImg('facebookicon')"
+                                                              class="img-responsive social-roll"
+                                                              src="images/facebook-icon.fw.png"></a></li>
+                                        <li><a id="twit"><img id="twittericon" onmouseover="chgimg('twittericon')"
+                                                              onmouseout="normalImg('twittericon')"
+                                                              class="img-responsive social-roll"
+                                                              src="images/twitter-icon.fw.png"></a></li>
+                                        <li><a id="gplus"><img id="gplusicon" onmouseover="chgimg('gplusicon')"
+                                                               onmouseout="normalImg('gplusicon')"
+                                                               class="img-responsive social-roll"
+                                                               src="images/googleplus.fw.png"></a></li>
 
-                                </ul>
-                            </div>
-                            <div class="row bottom-social">
-                                <ul class="list-unstyled list-inline thesocialmedais pull-right">
-                                    <li><a id="youtube"><img id="youtubeicon" onmouseover="chgimg('youtubeicon')"
-                                                             onmouseout="normalImg('youtubeicon')"
-                                                             class="img-responsive social-roll"
-                                                             src="images/youtube-icon.fw.png"></a></li>
-                                    <li><a id="link"><img id="linkdnicon" onmouseover="chgimg('linkdnicon')"
-                                                          onmouseout="normalImg('linkdnicon')"
-                                                          class="img-responsive social-roll"
-                                                          src="images/linkedin-icon.fw.png"></a></li>
-                                    <li><a id="blogger"><img id="bloggericon" onmouseover="chgimg('bloggericon')"
-                                                             onmouseout="normalImg('bloggericon')"
-                                                             class="img-responsive social-roll"
-                                                             src="images/blogger.fw.png"></a></li>
+                                    </ul>
+                                </div>
+                                <div class="row bottom-social">
+                                    <ul class="list-unstyled list-inline thesocialmedais pull-right">
+                                        <li><a id="youtube"><img id="youtubeicon" onmouseover="chgimg('youtubeicon')"
+                                                                 onmouseout="normalImg('youtubeicon')"
+                                                                 class="img-responsive social-roll"
+                                                                 src="images/youtube-icon.fw.png"></a></li>
+                                        <li><a id="link"><img id="linkdnicon" onmouseover="chgimg('linkdnicon')"
+                                                              onmouseout="normalImg('linkdnicon')"
+                                                              class="img-responsive social-roll"
+                                                              src="images/linkedin-icon.fw.png"></a></li>
+                                        <li><a id="blogger"><img id="bloggericon" onmouseover="chgimg('bloggericon')"
+                                                                 onmouseout="normalImg('bloggericon')"
+                                                                 class="img-responsive social-roll"
+                                                                 src="images/blogger.fw.png"></a></li>
 
-                                </ul>
+                                    </ul>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-xs-1"></div>
+
+
+
                     </div>
-
                 </div>
             </div>
+         </div>
+        <!--end of footer content on large screen-->
+
+        <!--The footer content on small screen-->
+        <div class="accordion visible-xs hidden-sm hidden-md hidden-lg">
+            <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapse1ac">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1ac">
+                                INFORMATION ABOUT</a>
+                        </h4>
+                    </div>
+                    <div id="collapse1ac" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                            <ul>
+                                <li><a href="#">The university</a></li>
+                                <li><a href="#">Fees & Funding</a></li>
+                                <li><a href="#"> Libraries</a></li>
+                                <li><a href="#"> Sport @ LMU</a></li>
+                                <li><a href="#">Health Care @ LMU</a></li>
+                                <li><a href="#"> Laboratories</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapse2ac">
+                        <h4 class="panel-title ">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2ac">
+                                INFORMATION FOR</a>
+                        </h4>
+                    </div>
+                    <div id="collapse2ac" class="panel-collapse collapse">
+                        <div class="panel-body">   <ul>
+                            <li><a href="#"> Prospective Students</a></li>
+                            <li><a href="#"> Current Students</a></li>
+                            <li><a href="#"> Parents & Guardians</a></li>
+                            <li><a href="#"> Current Staff</a></li>
+                            <li><a href="#"> Visitors & Tourist</a></li>
+                            <li><a href="#"> Alumni</a></li>
+                             </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                                QUICK LINKS</a>
+                        </h4>
+                    </div>
+                    <div id="collapse3" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <ul>
+                                <li><a href="#">Contact us</a></li>
+                                <li><a href="#"> Job & vacancies</a></li>
+                                <li><a href="#"> Map</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+                                REACHING US</a>
+                        </h4>
+                    </div>
+                    <div id="collapse4" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-xs-1">
+                                    <img src="images/mapmarker.fw.png">
+                                </div>
+                                <div class="col-xs-11">
+                                    <p>P.M.B 1004 Ipetu Road <br>
+                                        Omu-Aran, Kwara State</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-1">
+                                    <img src="images/contact.fw.png">
+                                </div>
+                                <div class="col-xs-11 "><p>
+                                    +234 7087116413<br>
+                                    +234 7038205649<br>
+                                    +234 8151319178 (Admission)</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-1">
+                                    <img src="images/email.fw.png">
+                                </div>
+                                <div class="col-xs-11">
+                                    <p>
+                                        admissions@lmu.edu.ng<br>
+                                        support@lmu.edu.ng<br>
+                                        feedback@lmu.edu.ng
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--end of footer content on small screen-->
+
+
+        <div class="footer_responsive_second_social_medias footer_responsive_custom_visible_socials">
+            <div class="row">
+                <div class="col-sm-12 text-center "  >
+                    <p class="footp footer_responsive_footp text-center">SOCIAL COMMUNITY</p>
+                    <ul class="list-unstyled list-inline thesocialmedais col-xs-push-4">
+                        <li><a id="face"><img id="facebookicon" onmouseover="chgimg('facebookicon')"
+                                              onmouseout="normalImg('facebookicon')"
+                                              class="img-responsive social-roll"
+                                              src="images/facebook-icon.fw.png"></a></li>
+                        <li><a id="twit"><img id="twittericon" onmouseover="chgimg('twittericon')"
+                                              onmouseout="normalImg('twittericon')"
+                                              class="img-responsive social-roll"
+                                              src="images/twitter-icon.fw.png"></a></li>
+                        <li><a id="gplus"><img id="gplusicon" onmouseover="chgimg('gplusicon')"
+                                               onmouseout="normalImg('gplusicon')"
+                                               class="img-responsive social-roll"
+                                               src="images/googleplus.fw.png"></a></li>
+                        <li><a id="youtube"><img id="youtubeicon" onmouseover="chgimg('youtubeicon')"
+                                                 onmouseout="normalImg('youtubeicon')"
+                                                 class="img-responsive social-roll"
+                                                 src="images/youtube-icon.fw.png"></a></li>
+                        <li><a id="link"><img id="linkdnicon" onmouseover="chgimg('linkdnicon')"
+                                              onmouseout="normalImg('linkdnicon')"
+                                              class="img-responsive social-roll"
+                                              src="images/linkedin-icon.fw.png"></a></li>
+                        <li><a id="blogger"><img id="bloggericon" onmouseover="chgimg('bloggericon')"
+                                                 onmouseout="normalImg('bloggericon')"
+                                                 class="img-responsive social-roll"
+                                                 src="images/blogger.fw.png"></a></li>
+
+                    </ul>
+                </div>
+            </div>
+
         </div>
     </div>
-
-
 </footer>
 <div class="line"></div>
 <div class="row tiny-footer">
     <div class="container">
-        <div class="col-sm-6">
+        <div class="col-xs-6 ">
             <ul class="list-inline list-unstyled">
                 <li><a href="#">Site map</a></li>
                 <li><a href="#">Accessibility</a></li>
@@ -548,8 +687,7 @@
                 <li><a href="#">Contact us</a></li>
             </ul>
         </div>
-        <div class="col-sm-3"></div>
-        <div class="col-sm-3 copy">
+        <div class="col-xs-6    copy">
             <p class="">© 2016 Landmark University, Omu Aran</p>
         </div>
     </div>
@@ -573,8 +711,8 @@
                 visibleItems: 2
             },
             tablet: {
-                changePoint: 768,
-                visibleItems: 3
+                changePoint: 1200,
+                visibleItems: 2
             }
         }
     });
